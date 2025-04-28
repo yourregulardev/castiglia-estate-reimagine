@@ -46,15 +46,32 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-medium mb-4">Contact Info</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li>123 Real Estate Blvd, Suite 100</li>
-              <li>New York, NY 10001</li>
-              <li>(555) 123-4567</li>
-              <li>info@castigliaassociates.com</li>
-            </ul>
+            <div className="space-y-6 text-gray-300">
+              {/* Shelton Office */}
+              <div>
+                <h5 className="font-medium mb-2">Shelton Office</h5>
+                <ul className="space-y-1">
+                  <li>95 Center Street</li>
+                  <li>Shelton, CT 06484</li>
+                  <li>Tel: (203) 924-9700</li>
+                  <li>Fax: (203) 924-9710</li>
+                </ul>
+              </div>
+              
+              {/* Stamford Office */}
+              <div>
+                <h5 className="font-medium mb-2">Stamford Office</h5>
+                <ul className="space-y-1">
+                  <li>1200 Summer Street, Suite 103</li>
+                  <li>Stamford, CT 06905</li>
+                  <li>Tel: (475) 328-0748</li>
+                  <li>Fax: (203) 323-3329</li>
+                </ul>
+              </div>
+            </div>
             
             {/* Social Media Links */}
-            <div className="flex space-x-4 mt-4">
+            <div className="flex space-x-4 mt-6">
               <a href="#" className="text-gray-300 hover:text-gold" aria-label="Facebook">
                 <Facebook />
               </a>
@@ -89,3 +106,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
